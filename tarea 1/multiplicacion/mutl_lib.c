@@ -9,7 +9,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+int n1,n2;
 void bienvenida()
 {
 
@@ -29,7 +29,7 @@ void bienvenida()
 }
 void multiplicar()
 {
-	multiplicacion = no1 * no2;
-	printf("El resultado de la multiplicacion es: \n %f",multiplicacion);
+	int multiplicacion = no1 * no2;
+	printf("El resultado de la multiplicacion es: %i \n",multiplicacion);
 }
 
